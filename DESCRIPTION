@@ -1,0 +1,26 @@
+Package: watplotter.io
+Title: WAT Plotter Input/Output
+Version: 0.11-1
+Authors@R: 
+    person("Michael", "Koohafkan", , "Michael.C.Koohafkan@usace.army.mil",
+        role = c("aut", "cre"))
+Description: Read and write WAT binary files and manipulate DSS pathnames.
+License: CC0
+URL: https://github.com/cwbi-apps/watplotter.io
+BugReports: https://github.com/cwbi-apps/watplotter.io/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
+Depends: R (>= 4.1)
+Imports:
+    lubridate (>= 1.9),
+    rlang (>= 1.0),
+    dplyr (>= 1.1),
+    stringr (>= 1.5),
+    purrr (>= 1.0),
+    watplotter.core (>= 0.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Remotes:
+    git::https://github.com/cwbi-apps/watplotter.core.git
+Config/testthat/edition: 3
